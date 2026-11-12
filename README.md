@@ -7,7 +7,9 @@ Casks for apps by [jonasgrau](https://github.com/jonasgrau).
 [Knightbar](https://github.com/jonasgrau/knightbar) puts a chess board in your Mac's menu bar.
 
 ```sh
-brew install --cask jonasgrau/tap/knightbar
+brew tap jonasgrau/tap
+brew trust --cask jonasgrau/tap/knightbar   # Homebrew only loads casks from other taps once you trust them
+brew install --cask knightbar
 ```
 
 Knightbar is not notarized by Apple yet. On the first launch, macOS blocks it: close the

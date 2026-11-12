@@ -1,6 +1,6 @@
 cask "knightbar" do
-  version "0.1.1"
-  sha256 "d9273ef53b3793c7f465cbbc789396db639f68221d690cf9bfbd3070dc492f25"
+  version "0.2.0"
+  sha256 "38792a021d07ca4d59725b8b39f7eec4006fe7f8a9afc1f5072e9c5c5dca9aab"
 
   url "https://github.com/jonasgrau/knightbar/releases/download/v#{version}/Knightbar-#{version}.zip"
   name "Knightbar"
